@@ -365,7 +365,7 @@ footer a {
     .accueil article{
         display:block;
         height:auto;
-        min-height:200vh;
+
         overflow:hidden;
     }
 
