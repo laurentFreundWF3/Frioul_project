@@ -30,9 +30,7 @@
 
     <article>
       <!-- Full width -->
-      <div class="container">
-        <div class="row">
-          <img class="logo" src="media/logo/c4m.png" alt="logo">
+          <img class="logo" src="media/logo/code4marseille.png" alt="logo">
           <section id="intro" class="text-center col-xs-12 ml-auto mr-auto">
             <!-- Background animé avec jquery et hashtag -->
             <h1 id="titre" class="animated bounce"> Découvrez en direct les merveilles de la Provence</h1>
@@ -41,8 +39,7 @@
             </div>
 
           </section>
-        </div>
-      </div>
+
     </div>
   </div>
 </div>

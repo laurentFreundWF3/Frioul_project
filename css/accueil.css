@@ -3,18 +3,17 @@
 
 * {
   box-sizing: border-box;
-  transition: all 1s ease-out;
+
 }
 
 /* Logo et nav bar de la home */
 
 .logo {
-  height: 3rem;
-  margin: 2rem;
+  height: 40px;
+  margin-left: 2rem;
+  margin-top:26px;
   padding: 0;
   position: relative;
-  top: -1rem;
-  left: -1rem;
 }
 
 
@@ -72,6 +71,7 @@ body {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   /* overflow:hidden; */
+  transition: all 1.5s linear;
 }
 
 /* Affichage du titre avec h1 */
@@ -81,14 +81,14 @@ body {
   text-shadow: 2px 2px 2px black;
   font-family: futura;
   font-weight: 900 !important;
-  margin-top: 400px;
+  margin-top:35vh;
 }
 
 h1 {
   display:block;
   text-align:center;
   margin-bottom: 10px;
-  margin-top: : 40px;
+  margin-top: : 10px;
 }
 
 --------------------------------------------------------------------------------
@@ -210,7 +210,7 @@ h2.hashtag{
 
 .boutonanime{
   position: relative;
-  /* padding: 1.4rem 4.2rem; */
+  padding: 1.4rem 4.2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 
@@ -266,8 +266,10 @@ h2.hashtag{
     padding-top:5vh;
   }
 
-  .
 
+  #titre {
+    margin-top:10vh;
+  }
 
 
 
@@ -331,8 +333,9 @@ h2.hashtag{
   height: 40px;
   position: fixed;
   right: 40px;
-  top: ;
+  top: 26px;
   z-index: 1000;
+  background: transparent;
 
 }
 .scroll {
@@ -342,9 +345,12 @@ h2.hashtag{
 }
 
 .margin-bottom {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
+.miniatures{
+  margin: 20px 25px 20px 25px;
+}
 
 
 

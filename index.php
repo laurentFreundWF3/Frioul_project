@@ -17,7 +17,7 @@
   <?php include('html/inc/map.php'); ?>
   <?php include('html/inc/navright.php'); ?>
   <?php include('html/inc/overlay.php'); ?>
-
+  <?php include('html/inc/footer.php'); ?>
   <!--BOUTON HAUT DE PAGE -->
   <div id="UpPage"><img src="media/img/hautdepage.png" width="40" height="40"></div>
 </body>
@@ -291,24 +291,31 @@ var hauteur = (document.body.clientWidth);
           }
 
           $.getJSON('html/inc/accueil.json', function (data) {
-            $.each(data, function (index, d) {
-              $('#lieux').delay(2000, function () {
-
-                $('#lieux').html(d.hashtag);
-                $('article').css('background-image', 'url(' + d
+            var idPhoto=0;
+            //$('#lieux').delay(3000, function () {
+            window.setInterval(function () {
+              //$.each(data, function (index, d) {
+                //console.log('tt');
+                $('#lieux').html(data[idPhoto].hashtag);
+                $('article').css('background-image', 'url(' + data[idPhoto]
                   .image + ')');
+                if(idPhoto < data.length-1)
+                  idPhoto++;
+                else
+                  idPhoto = 0;
+              },3000);
 
-                var alternate = anime({
-                  targets: '#alternate .el',
-                  translateX: -950,
-                  direction: 'alternate'
-                });
+                // var alternate = anime({
+                //   targets: '#alternate .el',
+                //   translateX: -950,
+                //   direction: 'alternate'
+                // });
 
-              });
+              // });
             });
           });
 
-        });
+        // });
 
         var urlApiAjax = 'https://myprovence.code4marseille.fr/api/instas?itemsPerPage=24';
 
@@ -342,7 +349,7 @@ var ajouterImage = function (objetJS)
                   var baliseUl = document.querySelector("div.liste");
                     // DOM Document Object Model
                     // AJOUTER UNE BALISE li
-                    var codeHtmlLi = '<a href="' + link + '"><div class="listeInfo img-thumbnail" style="background-image:url(' + standardResolution + ');background-size:cover;background-position:center center";></div></a>';
+                    var codeHtmlLi = '<a href="' + link + '"><div class="listeInfo img-thumbnail miniatures" style="background-image:url(' + standardResolution + ');background-size:cover;background-position:center center";></div></a>';
                     // AJOUTER NOTRE CODE POUR LA BALISE li DANS LA BALISE ul
                     //baliseUl.innerHTML += codeHtmlLi;
                     baliseUl.innerHTML += codeHtmlLi;

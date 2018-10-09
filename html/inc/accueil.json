@@ -2,12 +2,7 @@
 {
     "hashtag"   : "#Marseille",
     "lien"      : "#",
-    "image"     : "media/marseille/mucem_nuit.jpg"
-},
-{
-    "hashtag"   : "#Notredamedelagarde",
-    "lien"      : "#",
-    "image"     : "media/marseille/Notredame.jpg"
+    "image"     : "media/marseille/mucem.jpg"
 },
 {
     "hashtag"   : "#Vieux port",
@@ -20,13 +15,13 @@
     "image"     : "media/marseille/Calanques_de_Marseille.jpg"
 },
 {
+    "hashtag"   : "#Notredamedelagarde",
+    "lien"      : "#",
+    "image"     : "media/marseille/Notredame.jpg"
+},
+{
     "hashtag"   : "#Stadevelodrome",
     "lien"      : "#",
     "image"     : "media/marseille/stade-velodrome-marseille.jpg"
-},
-{
-    "hashtag"   : "#Marseilletototlavieestmagnifiqueleclimatntm",
-    "lien"      : "#",
-    "image"     : "media/marseille/mucem.jpg"
 }
 ]
