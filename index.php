@@ -18,6 +18,7 @@
   <?php include('html/inc/navright.php'); ?>
   <?php include('html/inc/overlay.php'); ?>
   <?php include('html/inc/footer.php'); ?>
+
   <!--BOUTON HAUT DE PAGE -->
   <div id="UpPage"><img src="media/img/hautdepage.png" width="40" height="40"></div>
 </body>
