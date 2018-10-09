@@ -2,9 +2,9 @@
   <div class="accueil">
     <div class="container">
       <div class="row">
-        <header class="col-xs-12 ml-1">
-          <a href="#"></a><img src="media/c4m.png" alt="" class="logo" /></a>
-          <a class="btn-scroll ct-js-btn-scroll animated" href="#mapHome"><img class="scroll" src="img/scroll.png" ></a>
+        <header class="col-xs-12 ml-auto mr-auto">
+          <a href="#"></a><img src="media/logo/c4m.png" alt="" class="logo" /></a>
+          <a class="btn-scroll ct-js-btn-scroll animated" href="#mapHome"><img class="scroll" src="media/icons/scroll.png" ></a>
 
           <script>
             $(document).ready(function () {
@@ -32,11 +32,11 @@
       <!-- Full width -->
       <div class="container">
         <div class="row">
-          <section id="intro" class="text-center col-xs-12 ml-1 mr-1">
+          <section id="intro" class="text-center col-xs-12 ml-auto mr-auto">
             <!-- Background animé avec jquery et hashtag -->
             <h1 id="titre" class="animated bounce"> Découvrez en direct les merveilles de la Provence</h1>
             <div id="alternate">
-              <h2 id="lieux" class="text-center col-xs-12 ml-1 mr-1 boutonanime from-middle"></h2>
+              <h2 id="lieux" class="text-center col-xs-12 ml-auto mr-auto boutonanime "></h2>
             </div>
 
           </section>
@@ -50,7 +50,7 @@
 
 
 
-<!-- TOUS LES ANCIENS CODES SONT CI DESSOUS -->
+<!--  TOUS LES ANCIENS CODES SONT CI DESSOUS -->
 
 <!-- Ne sert plus dans la nouvelle version
 

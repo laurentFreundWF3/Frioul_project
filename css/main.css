@@ -24,13 +24,12 @@
     }
 }
 
-html, body {
-
+ /* html, body {
     width: 100vw;
     height:100vh;
     overflow-x: hidden;
-
 }
+*/
 
 .WallOfPictures {
     padding: 50px 100px;
@@ -118,7 +117,7 @@ html, body {
 
 }
 
-#titre {
+/* #titre {
     color: white !important;
     text-shadow: 2px 2px 2px black;
 }
@@ -131,6 +130,7 @@ html, body {
     height: 100%;
     background-color: white;
 }
+*/
 
 .leaflet-marker-photo {
     height: 60px !important;
