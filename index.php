@@ -42,7 +42,7 @@
         var map = L.map('mapHome').setView([43.3, 5.4], 13);
 
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-            maxZoom: 18,
+            minZoom: 10,
             id: 'mapbox.streets'
         }).addTo(map);
 

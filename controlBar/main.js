@@ -10,13 +10,15 @@ jQuery(document).ready(function() {
       var carte = L.map('macarte').setView([43.3, 5.4], 12);
       L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(carte);
 
-
       $('.myPosition').on('click', () => {
         carte.locate({
           setView: true,
           maxZoom: 16
         });
       });
+
+      // zoom the map to that bounding box
+      map.fitBounds(bounds);
 
       function onLocationFound(e) {
         var radius = e.accuracy / 2;

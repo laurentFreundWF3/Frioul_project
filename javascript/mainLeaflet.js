@@ -8,6 +8,14 @@ L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voya
   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attribution">CARTO</a>'
 }).addTo(carte);
 
+var defaultLayers = carte.createDefaultLayers();
+defaultLayers.normal.map.setMax(12);
+
+var map = new H.Map(mapContainer,
+  defaultLayers.normal.map,{
+  center: {lat:43.300000, lng:5.400000},
+});
+
 
 //Ajout d'un marker et d'une zone d'influence
 var marker = L.marker([43.300000, 5.400000]).addTo(carte);
@@ -19,11 +27,11 @@ var markerNDG = L.marker([43.28433, 5.37111]).addTo(carte);
 
 
 //Permet de déplacer le marqueur
-/*carte.on('click', placerMarqueur);
+carte.on('click', placerMarqueur);
 
 function placerMarqueur(e) {
   marker.setLatLng(e.latlng);
-};*/
+};
 
 //Permet l'ajout de Pop-up
 marker.bindPopup(''); // Je ne met pas de texte par défaut
