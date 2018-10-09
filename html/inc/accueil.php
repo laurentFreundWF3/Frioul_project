@@ -2,7 +2,7 @@
   <div class="accueil">
     <div class="container">
       <div class="row">
-        <header class="col-xs-12 ml-auto mr-auto">
+        <header class="col-xs-12 ml-2 mr-2">
           <a href="#"></a><img src="media/logo/c4m.png" alt="" class="logo" /></a>
           <a class="btn-scroll ct-js-btn-scroll animated" href="#mapHome"><img class="scroll" src="media/icons/scroll.png" ></a>
 
