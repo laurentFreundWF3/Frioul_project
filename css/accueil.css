@@ -244,6 +244,7 @@ h2.hashtag{
     display:block;
     height:auto;
     overflow:hidden;
+    max-width: 100%;
   }
 
   #intro {
@@ -253,6 +254,7 @@ h2.hashtag{
     padding-top:5vh;
   }
 
+  .
 
 
 
