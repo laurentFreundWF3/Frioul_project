@@ -29,7 +29,7 @@ var ajouterImage = function(objetJS)
     var tableauInfo = objetJS["hydra:member"];
     // objet.propriete OU objet["propriete"]
     // BOUCLE POUR PARCOURIR LES INFOS UNE PAR UNE
-    for(var index=0; index < tableauInfo.length; index++) {
+    for(var index=0; index < 10; index++) {
         var infoCourante = tableauInfo[index];
         //console.log(infoCourante);
         var link = infoCourante.link;
@@ -40,7 +40,7 @@ var ajouterImage = function(objetJS)
             var baliseListe = document.querySelector("#liste");
             // DOM Document Object Model
             // AJOUTER UNE BALISE li
-            var codeHtml = '<div class="col-12 col-md-6 col-lg-4 col-xl-3  p-1"><a href="' + link + '"><img class="w-100 image-decouvrir" src="'+ standardResolution + '"></a><div>';
+            var codeHtml = '<div class="col-12 col-md-6 col-lg-4 col-xl-3 p-1"><a href="' + link + '"><img class="w-100 image-decouvrir" src="'+ standardResolution + '"></a><div>';
             // AJOUTER NOTRE CODE POUR LA BALISE li DANS LA BALISE ul
             baliseListe.innerHTML += codeHtml;
         }
