@@ -2,10 +2,10 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mx-auto text-center">
+            <div class="col-xs-12 col-sm-6 paddingfooter">
                 <img src="media/infos/departement-13.svg" class= "logocg">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mx-auto text-center adresse">
+            <div class="col-xs-12 col-sm-6 adresse paddingfooter">
                 <h5 class="titre">Code4Marseille</h5>
                 <p class="adresse">167 rue Paradis</p>
                 <p class="adresse">13006 Marseille</p>
