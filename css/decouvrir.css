@@ -1,64 +1,22 @@
-/* ************************************************************************************** */
-/* **********************************  DEBUT HEADER  ************************************ */
-/* ************************************************************************************** */
-main{
-    margin-top: 70px;
+.img-dec {
+  width: 100vw;
+  height: 70vh;
+  margin-bottom: 40px;
 }
 
-header.decouvrir{
-    background-color: #B82B35;
-}
-/* ***********************************  FIN HEADER  ************************************* */
-
-
-/* ************************************************************************************** */
-/* ****************************  MAIN : DEBUT COLONNE GAUCHE  *************************** */
-/* ************************************************************************************** */
-
-/* .colonneg{
-    padding-right: 5rem;
-    padding-left: 5rem;
-} */
-
-.imgport{
-    text-align: center;
+.listePhoto {
+  text-align: center;
+  margin: 0 100px;
 }
 
-.icons{
-    text-align: center;
+.image-decouvrir {
+  display:inline-block;
+  position:relative;
+  align-items: center;
+  /*width:20vw;*/
+  height:40vh;
+  margin: 5px;
 }
 
-
-
-
-/* ***************************  MAIN : FIN COLONNE GAUCHE  ****************************** */
-
-
-
-/* ************************************************************************************** */
-/* ****************************  MAIN : DEBUT COLONNE DROITE  *************************** */
-/* ************************************************************************************** */
-.colonned{
-    text-align: center;
-}
-
-
-.colonned > div > img {
-    padding: 0px 0px 30px 0px;
-    max-height: 9rem;
-
-}
-
-.colonned > div{
-    box-sizing: content-box;
-    max-width: 850px;
-}
-
-.image-decouvrir{
-    height: 12rem;
-    object-fit: cover;
-}
-
-/* ******************************  MAIN : FIN COLONNE GAUCHE  *************************** */
 
 

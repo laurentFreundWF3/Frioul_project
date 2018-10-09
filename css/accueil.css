@@ -242,7 +242,7 @@ h2.hashtag{
   display:inline-block;
   position:relative;
   width:15vw;
-  height:15vw;
+  height:15vh;
   margin: 5px;
 }
 
@@ -278,11 +278,6 @@ h2.hashtag{
     text-transform: uppercase;
     font-weight: 700;
   }
-
-
-
-
-
 
 
   #infos h1 {

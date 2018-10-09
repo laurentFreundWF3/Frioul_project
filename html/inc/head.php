@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" href="css/meteo.css">
     <link rel="stylesheet" href="css/navbottom.css">
+    <link rel="stylesheet" href="css/decouvrir.css">
     <link rel="stylesheet" href="css/buttonMainPage.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
 
