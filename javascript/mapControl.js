@@ -40,14 +40,19 @@ var questionControl = L.Control.extend({
     containerQ.style.width = '26px';
     containerQ.style.height = '26px';
     containerQ.title = 'question';
-    containerQ.style.backgroundImage = "url(./img/map/question.png)";
+    containerQ.style.backgroundImage = "url(./media/mapicons/question.png)";
     containerQ.style.backgroundSize = "26px 26px";
 
     containerQ.onclick = function() {
+      //alert('ici');
       var center = map.getCenter();
+
+      var iconQuestion = L.icon({
+        iconUrl: './media/mapicons/question.png'});
+
       var markerQ = new L.marker(center, {
           draggable: 'true',
-          iconUrl: './img/map/question.png'
+          icon: iconQuestion
         })
         .addTo(map)
         .bindPopup('<input class="titre" style="width:100%; color:black;"><br><textarea class="description" style="width:100%" rows="5"></textarea><br><button id="submitQ" onclick(submitQuestion();)>poser votre question</button>')
@@ -81,9 +86,10 @@ var geoloc = L.Control.extend({
     var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
     container.title = "Geolocalisation";
     container.style.backgroundColor = 'white';
-    container.style.backgroundSize = "30px 30px";
+    container.style.backgroundSize = "26px 26px";
     container.style.width = '26px';
     container.style.height = '26px';
+    container.style.backgroundImage = "url(./media/mapicons/localization.png)";
     container.onmouseover = function() {
       container.style.backgroundColor = 'tomato';
     }
@@ -104,7 +110,10 @@ var geoloc = L.Control.extend({
 function onLocationFound(e) {
   var radius = e.accuracy / 2;
 
-  L.marker(e.latlng).addTo(map)
+  var iconGeoloc = L.icon({
+        iconUrl: './media/mapicons/localization.png'});
+
+  L.marker(e.latlng, {icon:iconGeoloc}).addTo(map)
     .bindPopup("Vous êtes à " + radius + " métres de ce point!").openPopup();
 
   L.circle(e.latlng, radius).addTo(map);
@@ -124,7 +133,7 @@ var hashtagControl = L.Control.extend({
     position: 'topright'
   },
 
-  onAdd: function(map) {
+  /*onAdd: function(map) {
     var containerHashtag = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
 
     containerHashtag.style.backgroundColor = 'white';
@@ -137,7 +146,7 @@ var hashtagControl = L.Control.extend({
     }
 
     return containerHashtag;
-  }
+  }*/
 });
 
 map.addControl(new hashtagControl());
