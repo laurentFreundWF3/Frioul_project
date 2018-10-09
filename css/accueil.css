@@ -9,13 +9,19 @@
 /* Logo et nav bar de la home */
 
 .logo {
-  height: 60px;
-  margin: 0;
+  height: 3rem;
+  margin: 2rem;
   padding: 0;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -1rem;
+  left: -1rem;
 }
+
+
+
+
+
+
 
 /* Position du body dans l'ensemble du document */
 
@@ -32,7 +38,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Header */
+/* Header
 
 .header {
   overflow: hidden;
@@ -41,6 +47,7 @@ body {
   height: 100%;
   background-color: white;
 }
+*/
 
 /* Container */
 
@@ -72,11 +79,16 @@ body {
 #titre {
   color: white !important;
   text-shadow: 2px 2px 2px black;
+  font-family: futura;
+  font-weight: 900 !important;
+  margin-top: 400px;
 }
 
 h1 {
   display:block;
   text-align:center;
+  margin-bottom: 10px;
+  margin-top: : 40px;
 }
 
 --------------------------------------------------------------------------------
