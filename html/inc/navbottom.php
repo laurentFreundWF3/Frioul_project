@@ -1,3 +1,4 @@
+
 <div id="navBottom" class="container-fluid">
   <div class="row">
     <div class="col-md-4 mt-2">
@@ -35,10 +36,12 @@
         <button type="button" id="showOverlay" class="btn btn-success mr-2" style="border-radius:100px">
                   <i class="fa fa-heart"></i>
               </button>
+
       </div>
     </div>
   </div>
 </div>
+<!--
 <div id="navBotMob" class="container-fluid ">
   <div class="row text-center categoryHide">
     <div class="col-6">
@@ -71,8 +74,7 @@
     </div>
 
   </div>
-
-
+-->
 
   <div class="row">
     <div class="col-4 mt-2">
@@ -84,13 +86,17 @@
               <div class="input-group-text borderRoundL p-1">#</div>
             </div>
             <input type="text" class="form-control" id="inputHashtag" placeholder="hashtag">
+
+             <!--
             <div class="input-group-prepend">
                 <div class="input-group-text borderRoundR"><button id="hashtag">OK</button></div>
             </div>
+          -->
           </div>
         </div>
       </form>
     </div>
+   <!--
 
     <div class="col-4 mt-2 d-inline-block align-center btnMid p-0">
       <button type="button" class="btn btn-danger border-circle question" data-container="body" data-toggle="popover" data-placement="top">
@@ -114,9 +120,11 @@
             <i class="fa fa-heart"></i>
         </button>
       </div>
+      -->
     </div>
   </div>
 </div>
+
 
 <script type="text/javascript">
     jQuery(document).ready(function () {
