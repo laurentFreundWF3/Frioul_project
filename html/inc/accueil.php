@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <header class="col-xs-12 ml-2 mr-2">
-          <a href="#"></a><img src="media/logo/c4m.png" alt="" class="logo" /></a>
+
           <a class="btn-scroll ct-js-btn-scroll animated" href="#mapHome"><img class="scroll" src="media/icons/scroll.png" ></a>
 
           <script>
@@ -32,6 +32,7 @@
       <!-- Full width -->
       <div class="container">
         <div class="row">
+          <img class="logo" src="media/logo/c4m.png" alt="logo">
           <section id="intro" class="text-center col-xs-12 ml-auto mr-auto">
             <!-- Background animé avec jquery et hashtag -->
             <h1 id="titre" class="animated bounce"> Découvrez en direct les merveilles de la Provence</h1>
@@ -53,8 +54,8 @@
 <!--  TOUS LES ANCIENS CODES SONT CI DESSOUS -->
 
 <!-- Ne sert plus dans la nouvelle version
-
-         <nav class="">
+<!href="#"></a><img src="media/logo/c4m.png" alt="" class="logo" -->
+         <!--<nav class="">
             <! Navigation Top
             <ul class="hidden">
               <li class=""></li>
