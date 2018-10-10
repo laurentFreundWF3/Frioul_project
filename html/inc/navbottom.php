@@ -13,6 +13,7 @@
             <div class="input-group-prepend">
               <div class="input-group-text borderRoundR">
                 <button id="hashtag" class="btn" type="button" name="buttonHashtag">OK</button>
+                <button id="hashtagReset" class="btn" type="button" name="buttonHashtag">Reset</button>
               </div>
 
             </div>
