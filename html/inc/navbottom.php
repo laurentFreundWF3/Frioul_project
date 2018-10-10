@@ -30,7 +30,7 @@
         <button type="button" id="showRight" class="btn btn-info mr-2" style="border-radius:100px">
                   <i class="fa fa-compass"></i>
               </button>
-        <button type="button" class="btn btn-secondary mr-2" style="border-radius:100px">
+        <button type="button" class="btn btn-secondary mr-2" style="border-radius:100px">z
                   <i class="fa fa-camera-retro"></i>
               </button>
         <button type="button" id="showOverlay" class="btn btn-success mr-2" style="border-radius:100px">

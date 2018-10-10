@@ -127,13 +127,14 @@ map.addControl(new geoloc());
 
 /**
  *Function SearchBar Hashtag
+ * A finir d'intégrer la barre de HASHTAG sur la carte ?
  */
-var hashtagControl = L.Control.extend({
+/*var hashtagControl = L.Control.extend({
   options: {
     position: 'topright'
   },
 
-  /*onAdd: function(map) {
+  onAdd: function(map) {
     var containerHashtag = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
 
     containerHashtag.style.backgroundColor = 'white';
@@ -146,10 +147,10 @@ var hashtagControl = L.Control.extend({
     }
 
     return containerHashtag;
-  }*/
+  }
 });
 
-map.addControl(new hashtagControl());
+map.addControl(new hashtagControl()); */
 /**
  *END Function SearchBar Hashtag
  */
