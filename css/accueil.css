@@ -92,7 +92,7 @@ h1 {
 
 footer {
   display: block;
-  position:sticky;
+  /*position:sticky;*/
   bottom:0px;
   left:0px;
   font-size: 1em;
@@ -101,6 +101,9 @@ footer {
   background-color: #eeeeee;
   padding: 20px;
   text-decoration: none;
+  height:auto;
+  display:block;
+  position:relative;
 }
 
 footer p,
@@ -355,6 +358,12 @@ h2.hashtag{
     padding:0;
   }
 
+  footer {
+    width:100vw;
+    padding: 0px;
+    height:auto; 
+    padding-bottom:50px;
+  }
 }
 
 .border-map {
