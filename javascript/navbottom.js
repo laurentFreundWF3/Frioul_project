@@ -11,14 +11,14 @@ var questionControl = L.Control.extend({
     containerQ.style.width = '26px';
     containerQ.style.height = '26px';
     containerQ.title = 'question';
-    containerQ.style.backgroundImage = "url(../img/map/question.png)";
+    containerQ.style.backgroundImage = "url(../media/mapicons/question.png)";
     containerQ.style.backgroundSize = "26px 26px";
 
     containerQ.onclick = function() {
       var center = map.getCenter();
       var markerQ = new L.marker(center, {
           draggable: 'true',
-          iconUrl: '../img/map/question.png'
+          iconUrl: '../media/mapicons/question.png'
         })
         .addTo(map)
         .bindPopup('<input class="titre" style="width:100%; color:black;"><br><textarea class="description" style="width:100%" rows="5"></textarea><br><button id="submitQ" onclick(submitQuestion();)>poser votre question</button>')
@@ -146,9 +146,9 @@ function submitQuestion() {
   var question = [{
     lat: lat,
     lng: lng,
-    url: "img/map/question.png",
+    url: "media/mapicons/question.png",
     caption: description,
-    thumbnail: "img/map/question.png",
+    thumbnail: "media/mapicons/question.png",
     icon: question,
     lien: lien.replace('/api/infos/', 'https://myprovence.code4marseille.fr/info-public/')
   }];
