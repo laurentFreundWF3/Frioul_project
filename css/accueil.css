@@ -17,11 +17,6 @@
 }
 
 
-
-
-
-
-
 /* Position du body dans l'ensemble du document */
 
 html,
@@ -91,7 +86,7 @@ h1 {
   margin-top: : 10px;
 }
 
---------------------------------------------------------------------------------
+
 /* Footer */
 
 
@@ -149,20 +144,6 @@ footer a {
 
 
 
-
-
-
-
-
-
-------------------------------------------------------------------------------
-
-
-
-
-
-
-
 h3 {
   font-size: 2em;
   color: white;
@@ -207,11 +188,6 @@ section {
   text-align: center;
   margin: 0;
 }
-
-
-
-
-
 
 
 #infos h1 {
@@ -273,15 +249,24 @@ h2.hashtag{
 
 .liste {
   text-align:center;
-  margin: 20px;
 }
 
 .listeInfo {
   display:inline-block;
   position:relative;
+  /*
   width:15vw;
   height:15vh;
   margin: 5px;
+  */
+  
+  width:15vw;
+  height:15vw;
+
+  min-width:15vw;
+  min-height:15vw;
+  margin: 0;  
+  padding:0;
 }
 
 
@@ -289,7 +274,7 @@ h2.hashtag{
 
 /* MEDIA QUERY IMPORTANT */
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .accueil article{
     display:block;
     height:auto;
@@ -309,7 +294,12 @@ h2.hashtag{
     margin-top:10vh;
   }
 
-
+  .boutonanime{
+    font-size:1.2rem;
+    padding:0;
+    margin:0;
+    margin-top:1.5rem;
+  }
 
 
 
@@ -319,6 +309,9 @@ h2.hashtag{
     font-weight: 700;
   }
 
+  h1,h2,h3, h4 ,h5,h6{
+    font-size: 120%;
+  }
 
   #infos h1 {
     font-size: 1.5em;
@@ -345,6 +338,23 @@ h2.hashtag{
     padding:5px;
     margin:2px;
   }
+
+  .listeInfo {
+    display:inline-block;
+    position:relative;
+    /*
+    width:15vw;
+    height:15vh;
+    margin: 5px;
+    */
+    
+    width:15vw;
+    height:15vw;
+  
+    margin: 0;  
+    padding:0;
+  }
+
 }
 
 .border-map {
@@ -378,7 +388,11 @@ h2.hashtag{
 }
 
 .margin-bottom {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+}
+
+.margin-top {
+  margin-top: 50px;
 }
 
 .miniatures{
