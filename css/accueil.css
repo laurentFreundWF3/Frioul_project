@@ -74,9 +74,9 @@ body {
 #titre {
   color: white !important;
   text-shadow: 2px 2px 2px black;
-  font-family: futura;
   font-weight: 900 !important;
   margin-top:35vh;
+  padding:15px;
 }
 
 h1 {

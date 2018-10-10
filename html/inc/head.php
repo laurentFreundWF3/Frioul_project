@@ -23,7 +23,10 @@
 
     <!-- FONT AWESOME CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- FONT GOOGLE -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Futura' rel='stylesheet' type='text/css'>
 
     <script src="javascript/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
