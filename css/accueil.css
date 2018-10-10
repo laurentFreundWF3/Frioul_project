@@ -273,7 +273,9 @@ h2.hashtag{
 }
 
 
-
+.margin-top-footer{
+  margin-top:10px;
+}
 
 /* MEDIA QUERY IMPORTANT */
 
@@ -362,7 +364,12 @@ h2.hashtag{
     width:100vw;
     padding: 0px;
     height:auto; 
-    padding-bottom:50px;
+    padding-bottom:10px;
+  }
+
+  .margin-top-footer{
+    margin-top:10px;
+    margin-bottom:10px;
   }
 }
 
