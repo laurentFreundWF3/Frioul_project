@@ -43,7 +43,7 @@ body {
   z-index: 12;
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: #fff;
 }
 */
 
@@ -76,7 +76,7 @@ body {
 /* Affichage du titre avec h1 */
 
 #titre {
-  color: white !important;
+  color: #fff !important;
   text-shadow: 2px 2px 2px black;
   font-weight: 900 !important;
   margin-top:35vh;
@@ -87,7 +87,7 @@ h1 {
   display:block;
   text-align:center;
   margin-bottom: 10px;
-  margin-top: : 10px;
+  margin-top:10px;
 }
 
 
@@ -153,7 +153,7 @@ footer a {
 
 h3 {
   font-size: 2em;
-  color: white;
+  color: #fff;
   font-weight: 700;
   display:block;
   text-align:center;
@@ -520,7 +520,7 @@ button:hover,
 }
 
 .btn-treehouse {
-  color: white;
+  color: #fff;
   padding: 10px 15px;
   border-radius: 4px;
   font-weight: bold;
@@ -532,7 +532,7 @@ button:hover,
   opacity: 1;
   background: #3ac162;
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 .boutonanime:before, .boutonanime:after {
   content: '';
