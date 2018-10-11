@@ -129,7 +129,7 @@ map.addControl(new geoloc());
  *Function SearchBar Hashtag
  * A finir d'intégrer la barre de HASHTAG sur la carte ?
  */
-/*var hashtagControl = L.Control.extend({
+var hashtagControl = L.Control.extend({
   options: {
     position: 'topright'
   },
@@ -150,7 +150,7 @@ map.addControl(new geoloc());
   }
 });
 
-map.addControl(new hashtagControl()); */
+/*map.addControl(new hashtagControl());*/
 /**
  *END Function SearchBar Hashtag
  */

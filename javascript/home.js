@@ -2,6 +2,7 @@
 
 
 //Gestion des hashtag (reset écrase les anciens layers)
+
 $("#hashtag").click(function () {
     if ($("#inputHashtag").val().length > 2) {
         hashtag = $("#inputHashtag").val();
