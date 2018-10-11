@@ -9,6 +9,32 @@ $("#hashtag").click(function () {
       ajaxMap(hashtag);
     }
   });
+
+$("#hashtagReset").click(function () {
+    if ($("#inputHashtag").val().length > 2) {
+        hashtag = $("#inputHashtag").val();
+        idInsta = [];
+        map.removeLayer(photoLayer);
+        photoLayer = L.photo.cluster({spiderfyDistanceMultiplier: 1.6}).on('click', function (evt) {
+            evt.layer.bindPopup(L.Util.template('<img src="{url}"/><img src="img/logoInsta.png" style="display: inline-block; height: 40px !important; width: 40px !important;"><span><b>Photo de {username}</b></span><span style="float:right;"><img id="imgLike" src="img/instaLike.png"/></span><b style="float: right; line-height:28px;">{likes}</b><p>{caption}</p><br><br>', evt.layer.photo), {
+                className: 'leaflet-popup-photo',
+                minWidth: 400
+            });
+        });
+        ajaxMap(hashtag);
+    } else {
+        hashtag = "code4marseille";
+        idInsta = [];
+        map.removeLayer(photoLayer);
+        photoLayer = L.photo.cluster({spiderfyDistanceMultiplier: 1.6}).on('click', function (evt) {
+            evt.layer.bindPopup(L.Util.template('<img src="{url}"/><img src="img/logoInsta.png" style="display: inline-block; height: 40px !important; width: 40px !important;"><span><b>Photo de {username}</b></span><span style="float:right;"><img id="imgLike" src="img/instaLike.png"/></span><b style="float: right; line-height:28px;">{likes}</b><p>{caption}</p><br><br>', evt.layer.photo), {
+                className: 'leaflet-popup-photo',
+                minWidth: 400
+            });
+        });
+        ajaxMap(hashtag);
+    }
+});
   
   $("#showOverlay").click(function () {
     if ($(".overlay-box").is(":visible")) {
