@@ -1,4 +1,3 @@
-
 /* Pour tout le document */
 
 * {
@@ -11,7 +10,7 @@
 .logo {
   height: 40px;
   margin-left: 2rem;
-  margin-top:26px;
+  margin-top: 26px;
   padding: 0;
   position: relative;
 }
@@ -21,18 +20,18 @@
 
 html,
 body {
-  position:relative;
+  position: relative;
   display: block;
   margin: auto;
   width: 100vw;
-  min-height:100vh;
+  min-height: 100vh;
   font-size: 18px;
   background-color: #fff;
-  height:100vh;
+  height: 100vh;
   overflow-x: hidden;
 }
 
-#lieux{
+#lieux {
   text-shadow: 1px 2px 3px #000;
 }
 
@@ -49,11 +48,11 @@ body {
 
 /* Container */
 
-.container{
+.container {
   display: block;
-  position:relative;
+  position: relative;
   width: 100vw;
-  min-width:100vw;
+  min-width: 100vw;
 }
 
 /* Affichage de la premiere photo page accueil */
@@ -79,15 +78,15 @@ body {
   color: #fff !important;
   text-shadow: 2px 2px 2px black;
   font-weight: 900 !important;
-  margin-top:35vh;
-  padding:15px;
+  margin-top: 35vh;
+  padding: 15px;
 }
 
 h1 {
-  display:block;
-  text-align:center;
+  display: block;
+  text-align: center;
   margin-bottom: 10px;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 
@@ -97,17 +96,17 @@ h1 {
 footer {
   display: block;
   /*position:sticky;*/
-  bottom:0px;
-  left:0px;
+  bottom: 0px;
+  left: 0px;
   font-size: 1em;
-  width:100vw;
+  width: 100vw;
   color: #333;
   background-color: #eeeeee;
   padding: 20px;
   text-decoration: none;
-  height:auto;
-  display:block;
-  position:relative;
+  height: auto;
+  display: block;
+  position: relative;
 }
 
 footer p,
@@ -121,13 +120,13 @@ footer a {
 
 
 .code4 {
-  border-top:1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 1);
   background: #F4F4F4;
   display: block;
-  position:relative;
+  position: relative;
   height: 150px;
-  z-index:0;
+  z-index: 0;
 }
 
 .logocg {
@@ -155,8 +154,8 @@ h3 {
   font-size: 2em;
   color: #fff;
   font-weight: 700;
-  display:block;
-  text-align:center;
+  display: block;
+  text-align: center;
 
 }
 
@@ -164,7 +163,7 @@ h4 {
   font-size: 2em;
   color: #343434;
   font-weight: 700;
-  text-align:center;
+  text-align: center;
 
 }
 
@@ -190,7 +189,7 @@ section {
 
 #infos {
   display: block;
-  width:100vw;
+  width: 100vw;
   position: relative;
   text-align: center;
   margin: 0;
@@ -206,7 +205,7 @@ section {
   margin: 20px;
 }
 
-#lacarte{
+#lacarte {
   width: 50vw;
   height: 50vh;
   overflow: hidden;
@@ -222,14 +221,14 @@ section {
 
 }
 
-h2.hashtag{
+h2.hashtag {
   font-size: 2.8em;
   text-transform: uppercase;
   font-weight: 900 !important;
   text-shadow: 1px 2px rgba(0, 0, 0, 0.8)
 }
 
-.boutonanime{
+.boutonanime {
   position: relative;
   padding: 1.4rem 4.2rem;
   padding-top: 2rem;
@@ -255,59 +254,59 @@ h2.hashtag{
 
 
 .liste {
-  text-align:center;
+  text-align: center;
 }
 
 .listeInfo {
-  display:inline-block;
-  position:relative;
+  display: inline-block;
+  position: relative;
   /*
   width:15vw;
   height:15vh;
   margin: 5px;
   */
-  
-  width:15vw;
-  height:15vw;
 
-  min-width:15vw;
-  min-height:15vw;
-  margin: 0;  
-  padding:0;
+  width: 15vw;
+  height: 15vw;
+
+  min-width: 15vw;
+  min-height: 15vw;
+  margin: 0;
+  padding: 0;
 }
 
 
-.margin-top-footer{
-  margin-top:10px;
+.margin-top-footer {
+  margin-top: 10px;
 }
 
 /* MEDIA QUERY IMPORTANT */
 
 @media (max-width: 600px) {
-  .accueil article{
-    display:block;
-    height:auto;
-    overflow:hidden;
+  .accueil article {
+    display: block;
+    height: auto;
+    overflow: hidden;
     max-width: 100%;
   }
 
   #intro {
-    display:block;
-    position:relative;
-    height:auto;
-    padding-top:5vh;
+    display: block;
+    position: relative;
+    height: auto;
+    padding-top: 5vh;
   }
 
 
   #titre {
-    margin-top:10vh;
+    margin-top: 10vh;
   }
 
-  .boutonanime{
-    font-size:1.2rem;
-    padding:0;
-    margin:0;
-    margin-top:1.5rem;
+  .boutonanime {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 1.5rem;
   }
 
 
@@ -318,62 +317,70 @@ h2.hashtag{
     font-weight: 700;
   }
 
-  h1,h2,h3, h4 ,h5,h6{
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-size: 120%;
   }
 
   #infos h1 {
     font-size: 1.5em;
-    display:block;
-    position:relative;
+    display: block;
+    position: relative;
   }
 
 
 
 
-  #infos{
-    display:block;
-    position:relative;
-    height:auto;
+  #infos {
+    display: block;
+    position: relative;
+    height: auto;
   }
-  #social{
-    display:block;
-    position:relative;
-    height:auto;
+
+  #social {
+    display: block;
+    position: relative;
+    height: auto;
   }
-  button, .bouton {
+
+  button,
+  .bouton {
     display: inline-block;
     width: auto;
-    padding:5px;
-    margin:2px;
+    padding: 5px;
+    margin: 2px;
   }
 
   .listeInfo {
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
     /*
     width:15vw;
     height:15vh;
     margin: 5px;
     */
-    
-    width:15vw;
-    height:15vw;
-  
-    margin: 0;  
-    padding:0;
+
+    width: 15vw;
+    height: 15vw;
+
+    margin: 0;
+    padding: 0;
   }
 
   footer {
-    width:100vw;
+    width: 100vw;
     padding: 0px;
-    height:auto; 
-    padding-bottom:10px;
+    height: auto;
+    padding-bottom: 10px;
   }
 
-  .margin-top-footer{
-    margin-top:10px;
-    margin-bottom:10px;
+  .margin-top-footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -387,7 +394,8 @@ h2.hashtag{
   z-index: 9999;
 }
 
-.map, .mapHome{
+.map,
+.mapHome {
   position: relative;
 }
 
@@ -401,6 +409,7 @@ h2.hashtag{
   background: transparent;
 
 }
+
 .scroll {
   width: 40px;
   height: 40px;
@@ -415,7 +424,7 @@ h2.hashtag{
   margin-top: 50px;
 }
 
-.miniatures{
+.miniatures {
   margin: 20px 25px 20px 25px;
 }
 
@@ -610,6 +619,3 @@ button:hover,
 
 
   */
-
-
-
