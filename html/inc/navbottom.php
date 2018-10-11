@@ -6,7 +6,7 @@
             <div class="input-group-prepend heightHashtag">
                 <div class="input-group-text borderRoundL p-1">#</div>
             </div>
-            <input type="text" class="form-control" id="inputHashtag" placeholder="hashtag">
+            <input type="text" class="form-control" id="inputHashtag" placeholder="code4marseille">
             <div class="input-group-prepend">
                 <div class="input-group-text borderRoundR heightHashtag">
                     <img id="hashtag" src="media/icons/add.png" class="iconHashtag" alt="icone" style="position:relative; z-index:20; margin:0px;" />
